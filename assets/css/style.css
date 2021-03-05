@@ -62,9 +62,39 @@
             color: #1b1d29;
         }
 
-        @media (max-width: 1024px) {
+        @media (min-width: 1024px) and  (max-width: 1037px) {
             .w-25 {
                 width: 50% !important;
+            }
+
+            .image {
+                background-image: url('../images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 34% 13%;
+            }
+        }
+
+        /* @media (max-width: 1019px){
+            .w-25 {
+                width: 10% !important;
+            }
+
+            .image {
+                background-image: url('../images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 80% 13%;
+            }
+        } */
+
+        @media (max-width: 1440px) {
+            .w-25 {
+                width: 30% !important;
             }
 
             .image {
@@ -77,7 +107,46 @@
             }
         }
 
-        @media (max-width: 768px) {
+        @media (min-width: 820px) and (max-width: 1019px) {
+            .w-25 {
+                width: 40% !important;
+            }
+
+            .image {
+                background-image: url('../images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 35% 13%;
+            }
+
+            #navbarSupportedContent {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 680px) and (max-width: 821px) {
+            .w-25 {
+                width: 45% !important;
+                margin-top: 25px;
+            }
+
+            .image {
+                background-image: url('../images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 45% 13%;
+            }
+
+            #navbarSupportedContent {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 638px) and (max-width: 681px) {
             .w-25 {
                 width: 50% !important;
             }
@@ -88,7 +157,7 @@
                 background-repeat: no-repeat;
                 background-position: inherit;
                 width: 100%;
-                padding: 37% 13%;
+                padding: 45% 13%;
             }
 
             #navbarSupportedContent {
@@ -96,9 +165,91 @@
             }
         }
 
-        @media (max-width: 425px) {
+        @media (min-width: 598px) and (max-width: 639px) {
+            .w-25 {
+                width: 85% !important;
+                margin-top: 25px;
+            }
+
+            .image {
+                background-image: url('../images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 45% 13%;
+            }
+
+            #navbarSupportedContent {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 575px) and (max-width: 599px) {
+            .w-25 {
+                width: 90% !important;
+                margin-top: 25px;
+            }
+
+            .image {
+                background-image: url('../images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 50% 13%;
+            }
+
+            #navbarSupportedContent {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 483px) and (max-width: 574px) {
+            .w-25 {
+                width: 95% !important;
+                margin-top: 25px;
+            }
+
+            .image {
+                background-image: url('../images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 55% 13%;
+            }
+
+            #navbarSupportedContent {
+                display: none !important;
+            }
+        
+        }
+        @media (min-width: 426px) and (max-width: 484px) {
+            .w-25 {
+                width: 95% !important;
+                margin-top: 25px;
+            }
+
+            .image {
+                background-image: url('../images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 65% 13%;
+            }
+
+            #navbarSupportedContent {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 73px) and (max-width: 425px){
             .w-25 {
                 width: 100% !important;
+                margin-top: 0;
+                padding-top: 0;
             }
 
             .image {
@@ -120,6 +271,9 @@
             }
             .container .navbar-brand{
                 width: 50%;
+            }
+            .text-sm-center{
+                text-align: center;
             }
         }
 

@@ -59,11 +59,11 @@
 
     <section class="bg-secondary">
         <div class="container">
-            <div class="w-25 position-abs mt-lg-5 w-xl-25">
+            <div class="w-25 position-abs mt-lg-5 mt-md-5 w-xl-25">
                 <!-- Login form -->
                 <div class="d-flex justify-content-end">
-                    <button class="btn btn-secondary border-0 fw-bold w-100"
-                        style="border-radius: 20px 20px 0 0; font-size: 14px;"><span>Register</span></button>
+                    <div class="bg-secondary p-2 text-white text-center border-0 fw-bold w-100"
+                        style="border-radius: 20px 20px 0 0; font-size: 14px;"><span>Register</span></div>
                 </div>
                 <div class="card shadow-sm border-0" style="border-radius: 0 0 10px 10px; ">
                     <div class="card-body">
@@ -101,27 +101,26 @@
                                     further details please see our Marketing and Communication Policy Statement.
                                 </label>
                             </div>
-                            <div class="">
-                                <div class="container fw-bold d-flex justify-content-around">
-                                    <div class="form-check" style="font-size: 10px;">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                            id="flexRadioDefault1">
-                                        <label class="form-check-label" for="flexRadioDefault1">
-                                            Demo
-                                        </label>
-                                    </div>
 
-                                    <div class="form-check" style="font-size: 10px;">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                            id="flexRadioDefault2">
-                                        <label class="form-check-label" for="flexRadioDefault2">
-                                            Read
-                                        </label>
-                                    </div>
+                            <div class="d-flex justify-content-center  my-3">
+                                <div  style="font-size: 10px;">
+                                    <input type="radio" name="tradeType" id="demo" class="form-check-input">
+                                    <label for="">Demo</label>
+
+                                    <input type="radio" name="tradeType" id="read" class="form-check-input">
+                                    <label for="">Read</label>
+                                </div>
+
+                                <div  style="font-size: 10px;" class="mx-5">
+                                    <input type="radio" name="currency" id="" class="form-check-input">
+                                    <label for="">USD</label>
+
+                                    <input type="radio" id="" class="form-check-input" name="currency">
+                                    <label for="flexRadioDefault2">NGN</label>
                                 </div>
                             </div>
-                            <div class="text-center">
-                                <button class="btn btn-success btn-sm rounded-pill" style="font-size: 11px;">Open
+                            <div class="text-center ">
+                                <button class="btn btn-success  rounded-pill" style="font-size: 11px;">Open
                                     Account</button>
                             </div>
                         </form>
@@ -135,29 +134,29 @@
 
         <!-- icons -->
         <div class="container">
-            <div class="row d-flex py-3 justify-content-center">
-                <div class="col-sm-2 text-center text-icon text-light">
+            <div class="row d-flex py-4 justify-content-center">
+                <div class="col-6 col-lg-2 text-center text-icon text-light">
                     <img src="assets/images/i1.png" width="40" alt="">
                     <p>Regulated & Secure</p>
 
                 </div>
-                <div class="col-sm-2 text-center text-icon text-light">
+                <div class="col-6 col-lg-2 text-center text-icon text-light">
                     <img src="assets/images/i2.png" width="40" alt="">
                     <p>Award Winning</p>
                 </div>
-                <div class="col-sm-2 text-center text-icon text-light"><img src="assets/images/i3.png" width="40"
+                <div class="col-6 col-lg-2 text-center text-icon text-light"><img src="assets/images/i3.png" width="40"
                         alt="">
                     <p>1:10000 Leverage</p>
                 </div>
-                <div class="col-sm-2 text-center text-icon text-light"><img src="assets/images/i4.png" width="40"
+                <div class="col-6 col-lg-2 text-center text-icon text-light"><img src="assets/images/i4.png" width="40"
                         alt="">
                     <p>Live Seminar & Training</p>
                 </div>
-                <div class="col-sm-2 text-center text-icon text-light"><img src="assets/images/i5.png" width="40"
+                <div class="col-6 col-lg-2 text-center text-icon text-light"><img src="assets/images/i5.png" width="40"
                         alt="">
                     <p>Advance Trading Platform</p>
                 </div>
-                <div class="col-sm-2 text-center text-icon text-light"><img src="assets/images/i6.png" width="40"
+                <div class="col-6 col-lg-2 text-center text-icon text-light"><img src="assets/images/i6.png" width="40"
                         alt="">
                     <p>500+ Trading Instruments</p>
                 </div>
@@ -169,8 +168,8 @@
         <div class="bg-grey ">
             <div class=" container ">
                 <div class="row py-5 d-flex justify-content-center">
-                    <p class="text-center">Open your account to start trading today!</p>
-                    <div class="col-sm-4">
+                    <p class="text-center fs-5">Open your account to start trading today!</p>
+                    <div class="col-sm-4 text-sm-center">
                         <p>
                         <div class="text-orange">Standard Account: $100 + bonus</div>
                         <div>Competitive Spreads, all round offering</div>
@@ -186,16 +185,16 @@
                     </div>
 
                     <!-- divider -->
-                    <div class="col-sm-2 d-flex align-items-center d-none d-md-block">
+                    <div class="col-sm-2 offset-md-2  d-none d-sm-block">
                         <div class="bg-secondary my-3" style="width: 1px; padding: 0.5px; height: 80%;"></div>
                     </div>
                     <!-- divider -->
 
-                    <div class="col-sm-4">
-                        <p class="text-orange">Questions</p>
-                        <div class="d-flex">
+                    <div class="col-sm-4 text-sm-center">
+                        <p class="text-orange fs-4 mt-sm-5">Questions</p>
+                        <div class="d-flex justify-content-center">
                             <div class="mr-3">
-                                <div class="rounded-pill p-1 bg-light text-center mr-3">
+                                <div class="rounded-circle p-1 bg-light text-center mr-3">
                                     <i class="fas fa-envelope text-orange"></i>
                                 </div>
                                 <p>Email</p>
