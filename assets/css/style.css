@@ -20,7 +20,7 @@
         }
 
         .image {
-            background-image: url('assets/images/rally-bg.jpg');
+            background-image: url('../images/rally-bg.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: inherit;
@@ -68,7 +68,7 @@
             }
 
             .image {
-                background-image: url('assets/images/rally-bg.jpg');
+                background-image: url('../images/rally-bg.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: inherit;
@@ -83,7 +83,7 @@
             }
 
             .image {
-                background-image: url('assets/images/rally-bg.jpg');
+                background-image: url('../images/rally-bg.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: inherit;
@@ -102,7 +102,7 @@
             }
 
             .image {
-                background-image: url('assets/images/rally-bg.jpg');
+                background-image: url('../images/rally-bg.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: inherit;
