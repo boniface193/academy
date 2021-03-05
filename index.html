@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&Roboto&Open+Sans&display=swap');
+
+        * {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .text-grey {
+            color: #BDBDBD;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .text-grey-darken-2 {
+            color: #616161;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .text-grey-darken-4 {
+            color: #1b1d29;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .image {
+            background-image: url('assets/images/rally-bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: inherit;
+            width: 100%;
+            padding: 22% 13%;
+        }
+
+        .position-abs {
+            position: absolute;
+        }
+
+        .mx-6 {
+            margin: 0 90px;
+        }
+
+        .container-xt {
+            margin: 0 20%;
+        }
+
+        .text-icon {
+            font-family: 'Lato', sans-serif;
+            font-size: 11px;
+        }
+
+        .bg-grey {
+            background-color: #EEEEEE;
+        }
+
+        .text-orange {
+            color: #FF5722;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .divider {
+            width: 1px;
+            padding: 0.5px;
+            height: 23vh;
+
+            color: #1b1d29;
+        }
+
+        @media (max-width: 1024px) {
+            .w-25 {
+                width: 50% !important;
+            }
+
+            .image {
+                background-image: url('assets/images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 28% 13%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .w-25 {
+                width: 50% !important;
+            }
+
+            .image {
+                background-image: url('assets/images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 37% 13%;
+            }
+
+            #navbarSupportedContent {
+                display: none !important;
+            }
+        }
+
+        @media (max-width: 425px) {
+            .w-25 {
+                width: 100% !important;
+            }
+
+            .image {
+                background-image: url('assets/images/rally-bg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: inherit;
+                width: 100%;
+                padding: 37% 13%;
+                display: none;
+            }
+
+            #navbarSupportedContent {
+                display: none !important;
+            }
+
+            .position-abs {
+                position: relative;
+            }
+            .container .navbar-brand{
+                width: 50%;
+            }
+        }
+
+        .sidenav {
+            background-color: gray;
+            background-size: cover;
+            display: block;
+            padding: 40px;
+            position: absolute;
+            z-index: 1;
+            width: 50%;
+
+        }
+
+        .sidenav.sidebar {
+            background-color: white;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- topbar  -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+            <a class="navbar-brand " href="#">
+                <img src="assets/images/rally-logo.png" width="80%" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- top nav link -->
+            <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent22" style="font-size: 14px;">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!--  align-to-fit -->
+                </ul>
+                <ul class="navbar-nav text-capiterlized">
+                    <li class="nav-item">
+                        <a class="nav-link text-grey-darken-4" href="#"><i
+                                class="fas fa-user mx-2 text-grey"></i>Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-grey-darken-4" href="#"><i
+                                class="fas fa-comment mx-2 text-grey"></i>Live
+                            Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-grey-darken-2" href="#"><i class="fas fa-phone mx-2 text-grey"></i>+234
+                            901
+                            874 0318</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end of top navbar link -->
+        </div>
+    </nav>
+    <!-- end of top bar -->
+
+
+    <section class="bg-secondary">
+        <div class="container">
+            <div class="w-25 position-abs mt-5 w-xl-25">
+                <!-- Login form -->
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-secondary border-0 fw-bold w-100"
+                        style="border-radius: 20px 20px 0 0; font-size: 14px;"><span>Register</span></button>
+                </div>
+                <div class="card shadow-sm border-0" style="border-radius: 0 0 10px 10px; ">
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-floating" style="font-size: 12px;">
+                                <input type="text" class="mb-3 border-start-0 border-end-0 border-top-0 form-control"
+                                    id="floatingInput" placeholder="name@example.com" style="height: 45px;">
+                                <label for="floatingInput">First Name</label>
+                            </div>
+                            <div class="form-floating" style="font-size: 12px;">
+                                <input type="text" class="mb-3 border-start-0 border-end-0 border-top-0 form-control"
+                                    id="floatingInput" placeholder="name@example.com" style="height: 45px;">
+                                <label for="floatingInput">Last Name</label>
+                            </div>
+                            <div class="form-floating" style="font-size: 12px;">
+                                <input type="email" class="mb-3 border-start-0 border-end-0 border-top-0 form-control"
+                                    id="floatingInput" placeholder="name@example.com" style="height: 45px;">
+                                <label for="floatingInput">Email</label>
+                            </div>
+                            <div class="form-floating" style="font-size: 12px;">
+                                <input type="tel" class="mb-3 border-start-0 border-end-0 border-top-0 form-control"
+                                    id="floatingInput" placeholder="name@example.com" style="height: 45px;">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                            <div class="form-floating" style="font-size: 12px;">
+                                <input type="text" class="mb-3 border-start-0 border-end-0 border-top-0 form-control"
+                                    id="floatingInput" placeholder="name@example.com" style="height: 45px;">
+                                <label for="floatingInput">Country</label>
+                            </div>
+                            <div class="form-check mb-3" style="font-size: 12px;">
+                                <input class=" form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label text-grey-darken-4" for="flexCheckDefault">
+                                    By clicking here I give my consent for FRNG to contact me for marketing purposes.
+                                    You can opt out at any time. For
+                                    further details please see our Marketing and Communication Policy Statement.
+                                </label>
+                            </div>
+                            <div class="">
+                                <div class="container fw-bold d-flex justify-content-around">
+                                    <div class="form-check" style="font-size: 10px;">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Demo
+                                        </label>
+                                    </div>
+
+                                    <div class="form-check" style="font-size: 10px;">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            Read
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-success btn-sm rounded-pill" style="font-size: 11px;">Open
+                                    Account</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Login form ends here -->
+            </div>
+        </div>
+        <!-- background image -->
+        <div class="bg-with image"></div>
+
+        <!-- icons -->
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-2 text-center text-icon text-light">
+                    <img src="assets/images/i1.png" width="40" alt="">
+                    <p>Regulated & Secure</p>
+
+                </div>
+                <div class="col-sm-2 text-center text-icon text-light">
+                    <img src="assets/images/i2.png" width="40" alt="">
+                    <p>Award Winning</p>
+                </div>
+                <div class="col-sm-2 text-center text-icon text-light"><img src="assets/images/i3.png" width="40"
+                        alt="">
+                    <p>1:10000 Leverage</p>
+                </div>
+                <div class="col-sm-2 text-center text-icon text-light"><img src="assets/images/i4.png" width="40"
+                        alt="">
+                    <p>Live Seminar & Training</p>
+                </div>
+                <div class="col-sm-2 text-center text-icon text-light"><img src="assets/images/i5.png" width="40"
+                        alt="">
+                    <p>Advance Trading Platform</p>
+                </div>
+                <div class="col-sm-2 text-center text-icon text-light"><img src="assets/images/i6.png" width="40"
+                        alt="">
+                    <p>500+ Trading Instruments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="bg-grey ">
+            <div class=" container ">
+                <div class="row py-5 d-flex justify-content-center">
+                    <p class="text-center">Open your account to start trading today!</p>
+                    <div class="col-sm-4">
+                        <p>
+                        <div class="text-orange">Standard Account: $100 + bonus</div>
+                        <div>Competitive Spreads, all round offering</div>
+                        </p>
+                        <p>
+                        <div class="text-orange">Basic Account: $100 + bonus</div>
+                        <div>Same competitive spreads, smaller trade sizes</div>
+                        </p>
+                        <p>
+                        <div class="text-orange">Pro Account: $100 + bonus</div>
+                        <div>No commissions, no requotes, super tight spreads</div>
+                        </p>
+                    </div>
+
+                    <!-- divider -->
+                    <div class="col-sm-2 d-flex align-items-center d-none d-md-block">
+                        <div class="bg-secondary my-3" style="width: 1px; padding: 0.5px; height: 80%;"></div>
+                    </div>
+                    <!-- divider -->
+
+                    <div class="col-sm-4">
+                        <p class="text-orange">Questions</p>
+                        <div class="d-flex">
+                            <div class="mr-3">
+                                <div class="rounded-pill p-1 bg-light text-center mr-3">
+                                    <i class="fas fa-envelope text-orange"></i>
+                                </div>
+                                <p>Email</p>
+                            </div>
+
+                            <div class="mx-4">
+                                <div class="rounded-circle p-1 bg-light text-center">
+                                    <i class="fas fa-phone text-orange"></i>
+                                </div>
+                                <p>Call us</p>
+                            </div>
+
+                            <div>
+                                <div class="rounded-circle p-1 bg-light text-center">
+                                    <i class="fas fa-comment text-orange"></i>
+                                </div>
+                                <p>Chat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="text-center container-xt my-5">
+        <h5 class="fw-bold text-orange">Join over 3 million people who have already chosen RallyTrade</h5>
+        <p style="font-weight: 500;">Rally Trade is an international online Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptatibus, qui? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores,
+            corporis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur vel aliquam soluta reprehenderit
+            voluptatum, officiis consequatur commodi</p>
+
+        <p style="font-weight: 500;">Risk warning Our Product Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus sequi quod, similique qui cumque eum? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Saepe, numquam.</p>
+
+        <p style="font-weight: 500;">RallyTrade &copy; 2021. Privacy Policy</p>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2393e775ee.js" crossorigin="anonymous"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
+    <!-- <script>
+        let toggler = document.querySelector(".navbar-toggler");
+        let toggleSidebar = document.querySelector("#toggle-sidebar");
+        toggler.addEventListener("click", (() => {
+            if (toggleSidebar == true) {
+                // toggleSidebar
+                console.log("just click toggler")
+            }
+        }))
+    </script> -->
+</body>
+
+</html>
