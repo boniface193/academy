@@ -20,7 +20,7 @@
         }
 
         .image {
-            background-image: url('../images/rally-bg.jpg');
+            background-image: url('../images/MobileTrading.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: inherit;
@@ -30,6 +30,7 @@
 
         .position-abs {
             position: absolute;
+            z-index: 2;
         }
 
         .mx-6 {
@@ -66,44 +67,11 @@
             .w-25 {
                 width: 50% !important;
             }
-
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 34% 13%;
-            }
         }
-
-        /* @media (max-width: 1019px){
-            .w-25 {
-                width: 10% !important;
-            }
-
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 80% 13%;
-            }
-        } */
 
         @media (max-width: 1440px) {
             .w-25 {
                 width: 30% !important;
-            }
-
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 28% 13%;
             }
         }
 
@@ -112,17 +80,26 @@
                 width: 40% !important;
             }
 
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 35% 13%;
-            }
-
             #navbarSupportedContent {
                 display: none !important;
+            }
+        }
+
+        @media (min-width: 890px) and (max-width: 987px) {
+            .breakPoint{
+                padding-bottom: 5%;
+            }
+        }
+
+        @media (min-width: 895px) and (max-width: 891px) {
+            .breakPoint{
+                padding-bottom: 10%;
+            }
+        }
+
+        @media (min-width: 730px) and (max-width: 896px) {
+            .breakPoint{
+                padding-bottom: 15%;
             }
         }
 
@@ -132,32 +109,25 @@
                 margin-top: 25px;
             }
 
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 45% 13%;
-            }
-
             #navbarSupportedContent {
                 display: none !important;
+            }
+        }
+
+        @media (min-width: 680px) and (max-width: 731px) {
+            .breakPoint{
+                padding-bottom: 20%;
             }
         }
 
         @media (min-width: 638px) and (max-width: 681px) {
             .w-25 {
                 width: 50% !important;
+                margin-top: 25px;
             }
 
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 45% 13%;
+            .breakPoint .carousel-inner{
+                padding-bottom: 25%;
             }
 
             #navbarSupportedContent {
@@ -165,19 +135,22 @@
             }
         }
 
+        @media (min-width: 589px) and (max-width: 639px) {
+
+
+          .breakPoint .carousel-inner{
+                display: none;
+            }
+            div.adding-sm-padding{
+                padding-top: 85%;
+            }
+
+        }
+
         @media (min-width: 598px) and (max-width: 639px) {
             .w-25 {
                 width: 85% !important;
                 margin-top: 25px;
-            }
-
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 45% 13%;
             }
 
             #navbarSupportedContent {
@@ -191,33 +164,60 @@
                 margin-top: 25px;
             }
 
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 50% 13%;
-            }
-
             #navbarSupportedContent {
                 display: none !important;
             }
+        }
+
+        
+        @media (min-width: 560px) and (max-width: 591px) {
+
+          .breakPoint .carousel-inner{
+                display: none;
+            }
+            div.adding-sm-padding{
+                padding-top: 90%;
+            }
+
+        }
+
+        @media (min-width: 503px) and (max-width: 559px) {
+
+          .breakPoint .carousel-inner{
+                display: none;
+            }
+            div.adding-sm-padding{
+                padding-top: 100%;
+            }
+
+        }
+
+        @media (min-width: 455px) and (max-width: 502px) {
+
+          .breakPoint .carousel-inner{
+                display: none;
+            }
+            div.adding-sm-padding{
+                padding-top: 110%;
+            }
+
+        }
+
+        @media (min-width: 427px) and (max-width: 454px) {
+
+          .breakPoint .carousel-inner{
+                display: none;
+            }
+            div.adding-sm-padding{
+                padding-top: 120%;
+            }
+
         }
 
         @media (min-width: 483px) and (max-width: 574px) {
             .w-25 {
                 width: 95% !important;
                 margin-top: 25px;
-            }
-
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 55% 13%;
             }
 
             #navbarSupportedContent {
@@ -228,16 +228,6 @@
         @media (min-width: 426px) and (max-width: 484px) {
             .w-25 {
                 width: 95% !important;
-                margin-top: 25px;
-            }
-
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 65% 13%;
             }
 
             #navbarSupportedContent {
@@ -248,22 +238,14 @@
         @media (min-width: 73px) and (max-width: 425px){
             .w-25 {
                 width: 100% !important;
-                margin-top: 0;
-                padding-top: 0;
-            }
-
-            .image {
-                background-image: url('../images/rally-bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: inherit;
-                width: 100%;
-                padding: 37% 13%;
-                display: none;
             }
 
             #navbarSupportedContent {
                 display: none !important;
+            }
+
+            .breakPoint .carousel-inner{
+                display: none;
             }
 
             .position-abs {
@@ -290,4 +272,20 @@
 
         .sidenav.sidebar {
             background-color: white;
+        }
+
+        .bg-orange{
+            background-color: #FF5722;
+            color: #fff;
+
+        }
+        .bg-orange:hover{
+            color: #fff;
+            background-color: #e93802;
+        }
+
+        .btn.bg-orange {
+            font-size: 14px;
+            font-family: sans-serif !important;
+            text-transform: capitalize;
         }
